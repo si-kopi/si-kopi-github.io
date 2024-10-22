@@ -36,7 +36,9 @@ export default function Footer() {
         <div className="container grid md:grid-cols-3 pb-20 pt-5">
           <div className="py-8 px-4">
             <div
-              data-aos="fade-down" data-aos-once="true"
+              data-aos="fade-down" 
+              data-aos-once="true"
+              data-aos-delay="300"
               className="flex text-2xl text-white font-cursive cursor-pointer">
               <GiCoffeeCup className="size-9 mr-2"/><h1 className="mt-2 text-2xl text-white font-cursive cursor-pointer">SIKOPI</h1>
             </div>
