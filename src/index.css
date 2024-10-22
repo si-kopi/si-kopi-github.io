@@ -17,6 +17,10 @@
     animation: spin 33s linear infinite;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .Shoping-cart {
     position: absolute;
     top: 100%;

@@ -37,8 +37,7 @@ export default function Services() {
 
         {/* Menu Favorite */}
         <div className="sm:min-h-[540px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
-            {
-                ServicesData.map((data, index) => {
+            { ServicesData.map((data, index) => {
                     return (
                         <div 
                         data-aos="fade-up"

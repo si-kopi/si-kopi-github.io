@@ -1,32 +1,8 @@
-import { useState, useEffect } from 'react';
+
 import { FaCoffee } from "react-icons/fa";
 import Img3 from '../../public/images/Gambar-2.png';
 
 export default function Nav() {
-    const [cartActive, setCartActive] = useState(false);
-
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            const cartButton = document.getElementById('Shoping-cart-button');
-            const shopingCart = document.querySelector('.Shoping-cart');
-            if (cartButton && shopingCart && !cartButton.contains(event.target) && !shopingCart.contains(event.target)) {
-                setCartActive(false);
-            }
-        };
-
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, []);
-
-    // export default function cartActive(props) {
-    //     const  wrapperRef = userRef(null);
-    //     cartActive(wrapperCart);
-
-    //     return <div ref={wrapperCart}>{props.children}</div>
-    // }
-
     return (
         <nav className="bg-gradient-to-r from-secondary to-primary fixed w-full z-20 top-0 start-0 border-">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -59,7 +35,6 @@ export default function Nav() {
                     <button 
                         id="Shoping-cart-button" 
                         className="text-white/70 hover:text-white bg-gradient-to-r bg-secondary px-4 py-2 rounded-full hover:scale-105 duration-200 flex items-center gap-3"
-                        onClick={() => setCartActive(!cartActive)}
                     >
                         <i data-feather="Shoping-cart">
                             Order
@@ -68,7 +43,7 @@ export default function Nav() {
                         <span className="jumlah-badge"></span>
                     </button>
 
-                    <div className={`Shoping-cart ${cartActive ? 'active' : ''}`}>
+                    <div className={`Shoping-cart`}>
                         <h2 className="font-cursive text-2xl text-center pt-3 pb-5">
                             Keranjang Belanja</h2>
                         {/* Isi keranjang belanja */}
