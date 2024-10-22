@@ -40,7 +40,27 @@ export default {
           xl: '5rem',
           '2xl': '6rem',
         }
-      }
+      },
+      fontSize: {
+        'xs': ['.75rem', { lineHeight: '1.5' }],
+        'sm': ['.875rem', { lineHeight: '1.25' }],
+        'tiny': ['.875rem', { lineHeight: '1.25' }],
+         'base': ['1rem', { lineHeight: '1.5' }],
+         'lg': ['1.125rem', { lineHeight: '1.2' }],
+         'xl': ['1.25rem', { lineHeight: '1.2' }],
+         '2xl': ['1.5rem', { lineHeight: '1.2' }],
+        '3xl': ['1.875rem', { lineHeight: '1.2' }],
+        '4xl': ['2.25rem', { lineHeight: '1.2' }],
+         '5xl': ['3rem', {
+          lineHeight: '1.2',
+        }],
+         '6xl': ['4rem', {
+          lineHeight: '1.2',
+        }],
+        '7xl': ['4.13rem', {
+          lineHeight: '1.2',
+        }],
+       }
     },
    plugins: [],
   }

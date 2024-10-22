@@ -4,27 +4,23 @@ export default function Home() {
 
 
   return (
-    <div className="min-h-[650px] sm:min-h-[790px] pt-32 bg-brandDark flex justify-center items-center text-white">
+    <div className="min-h-[650px] sm:min-h-[750px] w-full pt-32 bg-brandDark flex justify-center items-center text-white">
       <div className="container pb-8 sm:pb-0">
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="order-2 sm:order-1">
-            <h1
-
-              className="text-5xl sm:text-6xl
-                lg:text-7xl font-bold font-Pacifico">
-              <span
-                data-aos="fade-up"
-                data-aos-once="true"
-                className="text-primary font-cursive">SIKOPI</span>
+            <h1 className="pt-12 text-4xl sm:text-5xl lg:text-7xl font-bold font-Pacifico">
               <h1 data-aos="zoom-in"
-                data-aos-once="true">Adalah Harmoni Antara Teknologi & Seni Menyeduh</h1>
-              <span
-                data-aos="zoom-out"
-                data-aos-delay="300"
-                className="text-primary font-cursive">KOPI</span>
+                data-aos-once="true"><span
+                  data-aos="fade-up"
+                  data-aos-once="true"
+                  className="text-primary font-cursive">SIKOPI</span> adalah harmoni antara Teknologi & Seni <br /> menyeduh <span
+                    data-aos="zoom-out"
+                    data-aos-delay="300"
+                    className="text-primary font-cursive">KOPI</span></h1>
+
             </h1>
-            <div className="pt-5" >
-              <a href="/Menu">
+            <div className="pt-9" >
+              <a href="/menu">
                 <button
                   data-aos="fade-up"
                   data-aos-delay="400"

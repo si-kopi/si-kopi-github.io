@@ -5,7 +5,7 @@ import Img3 from '../../public/images/Gambar-2.png';
 export default function Nav() {
 
     return (
-        <nav className="bg-gradient-to-r from-secondary to-primary fixed w-full z-20 top-0 start-0 border-">
+        <nav className="bg-gradient-to-r from-secondary to-primary fixed w-full z-20">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div
                     data-aos="fade-down" data-aos-once="true"

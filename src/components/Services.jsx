@@ -34,9 +34,8 @@ export default function Services() {
             <h1 className="text-4xl font-bold font-cursive text-gray-800">
                 Best Coffee For You</h1>
         </div>
-
         {/* Menu Favorite */}
-        <div className="sm:min-h-[540px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
+        <div className="sm:min-h-[550px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
             { ServicesData.map((data, index) => {
                     return (
                         <div 
