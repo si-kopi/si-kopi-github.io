@@ -24,7 +24,7 @@ export default function Home() {
                 className="text-primary font-cursive">KOPI</span>
             </h1>
             <div className="pt-5" >
-              <a href="/menu">
+              <a href="/Menu">
                 <button
                   data-aos="fade-up"
                   data-aos-delay="400"
