@@ -1,4 +1,4 @@
-import BannerImg from "../../public/images/CoffeWhite.png";
+import BannerImg from "../../public/images/CoffeeWhite.png";
 import BgTexture from "../../public/images/coffee-texture.jpg";
 import { FaGrinStars } from "react-icons/fa";
 import { GiCoffeeCup } from "react-icons/gi";
