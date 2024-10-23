@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { FaCartPlus } from "react-icons/fa";
 import { GiCoffeeCup } from "react-icons/gi";
 import Img3 from '../../public/images/Gambar-2.png';
@@ -20,24 +19,24 @@ export default function Nav() {
                     className="items-center justify-between gap-4 hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border bg-gradient-to-r border-secondary rounded-lg bg-secondary md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-secondary dark:bg-secondary md:dark:bg-secondary dark:border-secondary">
                         <li>
-                            <Link to="/" className="block py-2 px-3 text-white/70 bg-secondary rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white" aria-current="page">
+                            <a href="/" className="block py-2 px-3 text-white/70 bg-secondary rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white" aria-current="page">
                                 Home
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="#services" className="block py-2 px-3 text-white/70 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 md:dark:hover:text-white dark:text-white/70 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                            <a href="#services" className="block py-2 px-3 text-white/70 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 md:dark:hover:text-white dark:text-white/70 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                                 Services
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="#" className="block py-2 px-3 text-white/70 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 md:dark:hover:text-white dark:text-white/70 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                            <a href="#" className="block py-2 px-3 text-white/70 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 md:dark:hover:text-white dark:text-white/70 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                                 About
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/Contact" className="block py-2 px-3 text-white/70 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 md:dark:hover:text-white dark:text-white/70 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                            <a href="/Contact" className="block py-2 px-3 text-white/70 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 md:dark:hover:text-white dark:text-white/70 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                                 Contact
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                     <button

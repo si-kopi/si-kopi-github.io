@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import HeroImg from '../../public/images/Gambar-1.png';
 
 export default function Home() {
@@ -9,7 +8,7 @@ export default function Home() {
       <div className="container pb-8 sm:pb-0">
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="order-2 sm:order-1">
-            <h1 className="pt-9 text-4xl sm:text-5xl lg:text-7xl font-bold font-Pacifico">
+            <h1 className="pt-12 text-4xl sm:text-5xl lg:text-7xl font-bold font-Pacifico">
               <h1 data-aos="zoom-in"
                 data-aos-once="true"><span
                   data-aos="fade-up"
