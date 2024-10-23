@@ -17,6 +17,10 @@ export default function Home() {
                     data-aos="zoom-out"
                     data-aos-delay="300"
                     className="text-primary font-cursive">KOPI</span></h1>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8e528fe06f6e3f6aa7caff8ce12e6c99fe3ef2c0
             </h1>
             <div className="pt-9" >
               <a href="/menu">
