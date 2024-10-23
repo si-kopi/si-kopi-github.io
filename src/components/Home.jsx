@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import HeroImg from '../../public/images/Gambar-1.png';
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
       <div className="container pb-8 sm:pb-0">
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="order-2 sm:order-1">
-            <h1 className="pt-12 text-4xl sm:text-5xl lg:text-7xl font-bold font-Pacifico">
+            <h1 className="pt-9 text-4xl sm:text-5xl lg:text-7xl font-bold font-Pacifico">
               <h1 data-aos="zoom-in"
                 data-aos-once="true"><span
                   data-aos="fade-up"
@@ -17,10 +18,9 @@ export default function Home() {
                     data-aos="zoom-out"
                     data-aos-delay="300"
                     className="text-primary font-cursive">KOPI</span></h1>
-
             </h1>
-            <div className="pt-9" >
-              <a href="/menu">
+            <div className="pt-5" >
+              <Link to="/menu">
                 <button
                   data-aos="fade-up"
                   data-aos-delay="400"
@@ -28,7 +28,7 @@ export default function Home() {
                                         px-4 py-2 text-white hover:scale-105 duration-200">
                   Lihat Menu
                 </button>
-              </a>
+              </Link>
             </div>
 
           </div>
