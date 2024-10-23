@@ -19,8 +19,8 @@ export default function Home() {
                     data-aos-delay="300"
                     className="text-primary font-cursive">KOPI</span></h1>
             </h1>
-            <div className="pt-5" >
-              <Link to="/menu">
+            <div className="pt-9" >
+              <a href="/menu">
                 <button
                   data-aos="fade-up"
                   data-aos-delay="400"
@@ -28,7 +28,7 @@ export default function Home() {
                                         px-4 py-2 text-white hover:scale-105 duration-200">
                   Lihat Menu
                 </button>
-              </Link>
+              </a>
             </div>
 
           </div>
