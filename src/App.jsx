@@ -7,22 +7,22 @@ import Menu from './Pages/Menu';
 import Contact from './Pages/Contact';
 
 const App = () => {
-    React.useEffect(() => {
-      AOS.init({
-        offset: 100,
-        duration: 700,
-        easing: "ease-in",
-        delay: 100,
-      });
-      AOS.refresh();
-    }, []);
-  
+  React.useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 700,
+      easing: "ease-in",
+      delay: 100,
+    });
+    AOS.refresh();
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage/>} />
-        <Route path="/menu" element={<Menu/>} />
-        <Route path="/Contact" element={<Contact/>} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

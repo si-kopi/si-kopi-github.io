@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import HeroImg from '../../public/images/Gambar-1.png';
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
                     className="text-primary font-cursive">KOPI</span></h1>
             </h1>
             <div className="pt-9" >
-              <a href="/menu">
+              <Link to="/menu">
                 <button
                   data-aos="fade-up"
                   data-aos-delay="400"
@@ -27,7 +28,7 @@ export default function Home() {
                                         px-4 py-2 text-white hover:scale-105 duration-200">
                   Lihat Menu
                 </button>
-              </a>
+              </Link>
             </div>
 
           </div>
